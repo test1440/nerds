@@ -7,25 +7,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-        <!--     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">  -->
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <header class="main-header">
-            <a class="main-logo">
+            <a class="main-logo" href="index.html">
                 <img src="img/svg/nerds-logo.svg" width="169" height="85" alt="Логотип «Техномарт»">
             </a>
             <nav>
                 <ul class="site-navigation">
                     <li>
-                        <a href="#">Студия</a>
+                        <a href="index.html">Студия</a>
                     </li>
                     <li>
                         <a href="#">Клиенты</a>
                     </li>
                     <li>
-                        <a href="catalog.html">Магазин</a>
+                        <a class="catalog-page" href="catalog.html">Магазин</a>
                     </li>
                     <li>
                         <a href="#">Контакты</a>
@@ -37,14 +37,14 @@
             </nav>
         </header>
 
-        <main>
+        <main class="catalog">
             <h1>Магазин готовых шаблонов</h1>
 
             <section class="filter">
-                <h2>Стоимость:</h2>
+                <h2 class="visually-hidden">Фильтр</h2>
                 <form class="filter-parameters" action="#" method="GET">
                     <fieldset class="price-field">
-                        <legend>Цена:</legend>
+                        <legend>Стоимость:</legend>
                         <div class="price-line">
                             <div class="switch-min"></div>
                             <div class="toggle-switch">
@@ -100,7 +100,7 @@
                             </li>
                         </ul>
                     </fieldset>
-                    <button class="filter-button" type="submit">Показать</button>
+                    <button class="button filter-button" type="submit">Показать</button>
                 </form>
             </section>
 

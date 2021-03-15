@@ -7,19 +7,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <!--     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">  -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="main-header">
-      <a class="main-logo">
-        <img src="img/svg/nerds-logo.svg" width="169" height="85" alt="Логотип «Техномарт»">
+      <a class="main-logo" href="#">
+        <img src="img/svg/nerds-logo.svg" width="169" height="85" alt="Логотип Нёрдс">
       </a>
       <nav>
         <ul class="site-navigation">
           <li>
-            <a href="#">Студия</a>
+            <a class="main-page" href="#">Студия</a>
           </li>
           <li>
             <a href="#">Клиенты</a>
@@ -42,19 +42,19 @@
 
       <section class="main-info-slider">
         <h2 class="visually-hidden">Наши принципы</h2>
-        <ul>
-          <li>
-            <h2>Долго, дорого, скупулезно</h2>
+        <ul class="slider-list">
+          <li class="slide-1">
+            <h3>Долго, дорого, скупулезно.</h3>
             <p>Математически вывереннный дизайн для вашего сайта или мобильного приложения</p>
             <a href="#" class="button">Узнать больше</a>
           </li>
-          <li>
-            <h2>Любим математику как никто другой</h2>
+          <li class="slide-2">
+            <h3>Любим математику как никто другой</h3>
             <p>Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
             <a href="#" class="button">Узнать больше</a>
           </li>
-          <li>
-            <h2>Только ночь, только хардкор</h2>
+          <li class="slide-3">
+            <h3>Только ночь, только хардкор</h3>
             <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
             <a href="#" class="button">Узнать больше</a>
           </li>
@@ -65,19 +65,22 @@
         <h2 class="visually-hidden">Наши сервисы</h2>
         <ul class="services-list">
           <li>
-            <h2>Веб-сайты</h2>
+            <img src="img/illustration-red.png" width="300" height="146" alt="Веб-сайты">
+            <h3>Веб-сайты</h3>
             <p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
-            <a href="#">Заказать</a>
+            <a class="button" href="#">Заказать</a>
           </li>
           <li>
-            <h2>Приложения</h2>
+            <img src="img/illustration-green.png" width="300" height="146" alt="Приложения">
+            <h3>Приложения</h3>
             <p>Покорите топ-10 приложений AppStore и Google Play</p>
-            <a href="#">Заказать</a>
+            <a class="button button-green" href="#">Заказать</a>
           </li>
           <li>
-            <h2>Презентации</h2>
+            <img src="img/illustration-yellow.png" width="300" height="146" alt="Презентации">
+            <h3>Презентации</h3>
             <p>Вы даже не представляете, насколько вы изумительны!</p>
-            <a href="#">Заказать</a>
+            <a class="button button-yellow" href="#">Заказать</a>
           </li>
         </ul>
       </section>
@@ -100,19 +103,19 @@
         </ul>
         <img src="img/nerds-illustration.png" width="400" height="260" alt="Логотип «Нёрдс»">
         <h3>С 2004 года любим точность во всем</h3>
-        <ul>
+        <ul class="principles">
           <li>
-            <p>146</p>
+            <h4>146</h4>
             <span>%</span>
             <p>Уровень самоотдачи</p>
           </li>
           <li>
-            <p>100</p>
+            <h4>100</h4>
             <span>%</span>
             <p>Соблюдение сроков</p>
           </li>
           <li>
-            <p>50</p>
+            <h4>50</h4>
             <span>%</span>
             <p>Минимальная предоплата</p>
           </li>
@@ -121,7 +124,7 @@
 
       <section class="partners">
         <h2 class="visually-hidden">Наши партнёры</h2>
-        <ul>
+        <ul class="partners-list">
           <li>
             <a href="#">ХТМЛ-академия</a>
           </li>
@@ -147,15 +150,15 @@
       <img src="img/map-marker.png" alt="Мы здесь">
       <ul class="footer-links">
         <li>
-          <a class="link-vk" href="#" aria-label="Вконтакте"><img src="img/svg/vk-icon.svg" width="24" height="24"
+          <a class="link-vk" href="#" aria-label="Вконтакте"><img src="img/svg/vk-icon.svg" width="28" height="16"
               alt="Vkontakte"><span class="visually-hidden">Vkontakte</span></a>
         </li>
         <li>
-          <a class="link-fb" href="#" aria-label="Фейсбук"><img src="img/svg/fb-icon.svg" width="24" height="24"
+          <a class="link-fb" href="#" aria-label="Фейсбук"><img src="img/svg/fb-icon.svg" width="15" height="23"
               alt="Facebook"><span class="visually-hidden">Facebook</span></a>
         </li>
         <li>
-          <a class="link-in" href="#" aria-label="Инстаграмм"><img src="img/svg/insta-icon.svg" width="24" height="24"
+          <a class="link-in" href="#" aria-label="Инстаграмм"><img src="img/svg/insta-icon.svg" width="22" height="22"
               alt="Instagram"><span class="visually-hidden">Instagram</span></a>
         </li>
       </ul>
@@ -164,7 +167,7 @@
     </footer>
 
     <section class="modal write-us">
-      <h2 class="visually-hidden">Напишите нам!</h2>
+      <h2>Напишите нам!</h2>
       <form action="#" method="post">
         <div class="write-us-form">
           <div class="write-us-field">

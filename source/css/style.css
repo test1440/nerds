@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  /* ибо в жопу  */
+}
+
+.button {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #fb5559;
+
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  padding: 5px; /* якорь: убрать? */
+}
+
+.button-green {
+  background-color: #00c973;
+}
+
+.button-yellow {
+  background-color: #efc749;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+/* header */
+
+.main-header,
+.main-info-slider {
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  /* font-weight: bold; */
+  line-height: 30px;
+  text-transform: uppercase;
+
+  list-style: none;
+}
+
+.main-page {
+  border-bottom: 3px solid #fb565a;
+}
+
+.catalog-page {
+  border-bottom: 3px solid #fb565a;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  color: #fb565a;
+}
+
+.site-navigation a:active {
+  color: #a6a6a6;
+}
+
+.site-navigation a:focus {
+  outline: none;
+  border-bottom: 3px solid #fb565a;
+}
+
+/* end header */
+
+/* slider */
+
+.slider-list li {
+  text-align: left;
+}
+
+.main-info-slider h3,
+.slider-list h3 {
+  font-size: 55px;
+  line-height: 55px;
+  /*  font-weight: medium; */
+}
+
+.slide-2,
+.slide-3 {
+  display: none;
+}
+
+/* end slider */
+
+/* services */
+
+.services h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* end services */
+
+/* about-us */
+
+.about-us h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about-us h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.principles h4 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.principles span {
+  font-size: 45px;
+  /* line-height: 45px; */
+  font-weight: bold;
+}
+
+.principles p {
+  line-height: 18px;
+}
+
+/* end about-us */
+
+/* partners */
+
+/* end partners */
+
+/* catalog */
+
+.catalog h1 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+/* filter */
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filter label {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.sorting h2 {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sorting li {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sorting a {
+  color: #b2b2b2;
+}
+
+.sorting a:hover {
+  color: #666666;
+}
+
+.sorting a:active,
+.sorting a:focus {
+  outline: none;
+  color: #000000;
+}
+
+/* end filter */
+
+/* samples */
+
+.samples h3 {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.samples p {
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #b2b2b2;
+}
+
+/* end samples */
+
+.pages-list {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/* end catalog */
+
+/* footer */
+
+.main-footer h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.main-footer p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer-links a {
+  display: block;
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+
+  text-align: center;
+
+  background-color: #e1e1e1;
+}
+
+.footer-links img {
+  margin-top: 26px;
+}
+/* end footer */
+
+/* modal */
+
+.write-us h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.write-us label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.write-us input {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* end modal */
