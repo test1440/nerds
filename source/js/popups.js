@@ -25,10 +25,11 @@ function popup(open, modal, close) {
   });
 } */
 
+/* .modal >  */ /* сюда ругаицо =(  */
 
 var write_us = document.querySelector(".button-write-us");
 var modal = document.querySelector(".modal");
-var button_close = document.querySelector(".modal > .button-close");
+var button_close = modal.querySelector(".button-close");
 
 write_us.addEventListener("click", function (evt) {
   evt.preventDefault();
